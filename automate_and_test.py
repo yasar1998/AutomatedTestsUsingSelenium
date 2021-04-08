@@ -3,7 +3,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 from locators import locator
 from csv import reader
 from selenium.webdriver.support.ui import Select
-import random
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.implicitly_wait(10)
